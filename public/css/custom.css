@@ -1,0 +1,148 @@
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+div.gallery:hover {
+    border: 1px solid #103668;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0px;
+}
+
+div.desc {
+    background-color: #286090;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar-default{
+    background-color: #286090 !important;
+    color: white;
+}
+.site-footer{
+    background-color: #0b2547 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+body{
+    background-color: #F0FFFF;
+}
+
+li.sub-item > a{
+    text-decoration: none;
+    color: #0b2547;
+}
+.sub-item:hover{
+    /* color: white; */
+    background-color:#ccc;
+    
+}
+
+.navbar-inverse {
+    background-color: #0b2547;
+    /* border-color: #080808; */
+    color: white;
+}
+.side-nav{
+    background-color: #0b2547;
+}
+/* Footer */
+
+
+.btn-like{
+    width: 60px;
+   height: 20px;
+
+   font-size: 10px;
+
+   background-color: #0062cc;
+
+   border-radius: 3px;
+
+   color: white;
+   margin: 5px;
+   border-block-color: skyblue;
+   border: 0px solid #0062cc;
+}
+
+.load-content{
+  padding: 30px 0px;
+}
+.btn-load{
+  color: skyblue;
+}
+
+
+/* slider */
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #286090 ;
+    padding: 0px 300px;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #286090;
+  }
+
+ /* //breadcrumb */
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: none;
+  }
+  
+  .tab-product{
+    background-color: #286090;
+
+    padding: 5px 15px;
+    
+    width: 100px;
+    
+    margin: -10px -16px;
+    
+    color: white;
+  }
+  
